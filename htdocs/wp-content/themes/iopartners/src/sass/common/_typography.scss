@@ -1,0 +1,43 @@
+@import url('/src/fonts/NeueHaasGrotesk/stylesheet.css');
+@import url('/src/fonts/Unica/stylesheet.css');
+
+$font-family-sans-serif: 'Unica', sans-serif;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+  color: #2a334a;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 4.5rem;
+}
+
+h2 {
+  font-size: 3rem !important;
+  margin-bottom: 2rem !important;
+}
+
+p {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+a.read-more {
+  font-size: 1.125rem;
+  color: #2a334a;
+  border-bottom: 1px solid #2a334a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.bg-dark a.read-more {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}

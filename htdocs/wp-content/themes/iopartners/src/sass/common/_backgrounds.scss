@@ -1,0 +1,55 @@
+main {
+  position: relative;
+  z-index: 1;
+}
+
+.bg-white,
+.bg-light {
+  background-color: #fff;
+}
+
+.bg-salmon,
+.bg-pink {
+  background-color: #fdeae0;
+}
+
+.bg-gray,
+.bg-grey {
+  background-color: #f8f8f8;
+}
+
+.bg-gray-dark,
+.bg-grey-dark,
+.bg-light-2 {
+  background-color: #dbe3e9;
+}
+
+.bg-dark {
+  background-color: #2a334a;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  span,
+  a,
+  li {
+    color: #fff;
+  }
+}
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
+
+:root {
+  --bs-dark: #2a334a;
+  --bs-dark-rgb: 42, 51, 74;
+}

@@ -1,0 +1,120 @@
+section.cta,
+.section.cta {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  padding: 180px 50px;
+  text-align: center;
+
+  h2 {
+    color: #fff;
+  }
+
+  input,
+  button {
+    height: 4rem;
+    width: 100%;
+    border: 0;
+    padding: 0 3rem;
+    border-radius: 99px;
+    margin-bottom: 0.5rem;
+  }
+
+  button:hover {
+    background: #1279ed;
+  }
+
+  .field-postal {
+    @include media-breakpoint-up(md) {
+      margin-left: 28px;
+
+      input {
+        border-radius: 99px 0 0 99px;
+      }
+    }
+  }
+
+  .field-phone {
+    @include media-breakpoint-up(md) {
+      input {
+        border-radius: 0;
+      }
+    }
+  }
+
+  .field-email {
+    z-index: 1;
+  }
+
+  button {
+    border-radius: 99px;
+    background-color: #13aa57;
+    color: #fff;
+    z-index: 4;
+
+    @include media-breakpoint-up(md) {
+      margin-left: -56px;
+    }
+  }
+}
+
+/*
+section.cta .wpcf7 {
+  width: 100%;
+}
+
+section.cta form {
+  background: unset;
+  box-shadow: unset;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+section.cta .form-items {
+  display: flex;
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+}
+
+section.cta .item.postinumero input {
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-right: 1px solid #e0e0e5;
+}
+
+section.cta .form-items input, section.cta .form-items p > button {
+  height: 65px;
+}
+section.cta input {
+  width: 100%;
+}
+section.cta input {
+  border: 0 !important;
+}
+section.cta .form-items button {
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+section.cta .form-items button {
+  width: 100%;
+  position: relative;
+  margin: 0;
+  z-index: 2;
+}
+section.cta form p {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  width: 100%;
+  height: 100%;
+  background: white;
+  border-right: 1px solid #17ac56;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  opacity: 1;
+}
+*/

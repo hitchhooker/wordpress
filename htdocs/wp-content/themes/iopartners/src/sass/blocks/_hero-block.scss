@@ -1,0 +1,54 @@
+.hero {
+  position: relative; // Fixes issues with sticky footer
+
+  &.hero-full {
+    background: linear-gradient(312.5deg, rgba(42, 51, 74, 0.2) 22.5%, rgba(42, 51, 74, 0.6) 50%);
+    background-position: center center;
+    background-blend-mode: multiply;
+    height: 100vh;
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #fff;
+
+      @include media-breakpoint-up(md) {
+        font-size: 4.5rem;
+      }
+    }
+  }
+
+  img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+}
+
+video#ioVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.hero:not(.hero-full) {
+  padding-bottom: 0;
+}
+
+.breadcrumbs {
+  font-size: 1rem;
+  color: #2a334a;
+
+  a {
+    color: #2a334a;
+    text-decoration: none;
+  }
+
+  .current-page {
+    font-weight: 900;
+  }
+}

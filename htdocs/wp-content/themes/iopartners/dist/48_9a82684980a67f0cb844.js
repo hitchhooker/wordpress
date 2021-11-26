@@ -1,0 +1,1 @@
+(self.webpackChunkamenum_core=self.webpackChunkamenum_core||[]).push([[48],{48:()=>{var o;(o=jQuery)("#footer .contact-form-button").on("click",(function(){o(this).hide(),o("#footer .contact-form-content").slideDown(),o("footer#footer").css("position","relative"),o("html, body").scrollTop(o(document).height())}))}}]);

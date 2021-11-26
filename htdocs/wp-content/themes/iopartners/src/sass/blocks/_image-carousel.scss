@@ -1,0 +1,72 @@
+.image-carousel {
+  h2 {
+    color: #fff;
+    margin-bottom: 0 !important;
+  }
+
+  img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  img.d-block.mx-auto {
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.25);
+  }
+
+  .carousel-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .carousel-indicators {
+    bottom: -60px;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    color: #000;
+  }
+}
+
+.content-carousel {
+  background-color: #dbe3e9;
+
+  h2 {
+    margin-bottom: 0 !important;
+  }
+
+  img {
+    width: auto;
+    height: auto;
+    max-width: 50%;
+    max-height: 2rem;
+    margin-top: 2rem;
+  }
+
+  img.d-block.mx-auto {
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.25);
+  }
+
+  .carousel-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .carousel-indicators {
+    bottom: -60px;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    background-color: #2a334a;
+    width: 12px;
+    height: 12px;
+    border: none;
+    border-radius: 99px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+}
+
+.container.content-carousel {
+  padding: 0 3rem;
+}
